@@ -1,7 +1,7 @@
 {
   "name": "aws-cdk",
   "description": "CDK Toolkit, the command line tool for CDK apps",
-  "version": "0.0.0",
+  "version": "1.78.0-okeo.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
@@ -38,7 +38,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@aws-cdk/core": "0.0.0",
+    "@aws-cdk/core": "1.78.0",
     "@octokit/rest": "^18.0.9",
     "@types/archiver": "^5.1.0",
     "@types/fs-extra": "^8.1.1",
@@ -67,15 +67,15 @@
     "xml-js": "^1.6.11"
   },
   "dependencies": {
-    "@aws-cdk/cloud-assembly-schema": "0.0.0",
-    "@aws-cdk/cloudformation-diff": "0.0.0",
-    "@aws-cdk/cx-api": "0.0.0",
-    "@aws-cdk/region-info": "0.0.0",
-    "@aws-cdk/yaml-cfn": "0.0.0",
+    "@aws-cdk/cloud-assembly-schema": "1.78.0",
+    "@aws-cdk/cloudformation-diff": "1.78.0",
+    "@aws-cdk/cx-api": "1.78.0",
+    "@aws-cdk/region-info": "1.78.0",
+    "@aws-cdk/yaml-cfn": "1.78.0",
     "archiver": "^5.1.0",
     "aws-sdk": "^2.804.0",
     "camelcase": "^6.2.0",
-    "cdk-assets": "0.0.0",
+    "cdk-assets": "https://gitpkg.now.sh/redbaron/aws-cdk/packages/cdk-assets?v1.78.0-okeo.2",
     "colors": "^1.4.0",
     "decamelize": "^4.0.0",
     "fs-extra": "^9.0.1",
